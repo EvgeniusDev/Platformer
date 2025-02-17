@@ -17,6 +17,9 @@ public class Main extends PApplet {
     public void draw() {
         background(255);
         fill(255, 0, 0);
-        ellipse(mouseX, mouseY, 100, 100);
+
+        if (mousePressed) {
+            ellipse(mouseX, mouseY, 100, 100);
+        }
     }
 }
