@@ -3,6 +3,7 @@ package com.litesoft.platformer;
 import processing.core.PApplet;
 
 public class Main extends PApplet {
+	// new line of comment for checking feedback
     public static void main(String[] args) {
         PApplet.main("com.litesoft.platformer.Main");
     }
